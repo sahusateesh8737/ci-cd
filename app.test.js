@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('./index');
+const app = require('./app');
 
 test('GET /health returns 200 and healthy status', async () => {
     const response = await request(app).get('/health');
