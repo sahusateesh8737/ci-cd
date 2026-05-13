@@ -5,5 +5,24 @@
   "devDependencies": {
     "jest": "^30.4.2",
     "supertest": "^7.2.2"
-  }
+  },
+  "name": "ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahusateesh8737/ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sahusateesh8737/ci-cd/issues"
+  },
+  "homepage": "https://github.com/sahusateesh8737/ci-cd#readme"
 }
